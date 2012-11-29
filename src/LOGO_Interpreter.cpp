@@ -7,13 +7,14 @@
 //============================================================================
 
 #include "baseCommandC.h"
+#include "forwardC.h"
 #include <iostream>
 
 int main (int argc, char * const argv[]) {
     // insert code here...
-	baseCommandC test(5.0);
-	baseCommandC testDefault;
-	std::cout << "Yeah" << std::endl;
+	forwardC test(5.0);
+	forwardC testDefault;
+	test.draw();
 
     return 0;
 }

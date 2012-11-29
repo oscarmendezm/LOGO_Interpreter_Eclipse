@@ -5,15 +5,18 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
 ../src/LOGO_Interpreter.cpp \
-../src/baseCommandC.cpp 
+../src/baseCommandC.cpp \
+../src/forwardC.cpp 
 
 OBJS += \
 ./src/LOGO_Interpreter.o \
-./src/baseCommandC.o 
+./src/baseCommandC.o \
+./src/forwardC.o 
 
 CPP_DEPS += \
 ./src/LOGO_Interpreter.d \
-./src/baseCommandC.d 
+./src/baseCommandC.d \
+./src/forwardC.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

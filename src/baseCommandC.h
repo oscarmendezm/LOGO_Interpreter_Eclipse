@@ -8,11 +8,14 @@
  *
  */
 
+#ifndef __LOGO_Interpreter__baseCommandC__
+#define __LOGO_Interpreter__baseCommandC__
+
 #include <iostream>
 
 class baseCommandC{
 
-private:
+protected:
 	float value;
 
 public:
@@ -24,4 +27,6 @@ public:
 
 	friend std::istream& operator>> (std::istream& in, baseCommandC& a);
 };
+
+#endif /* defined(__LOGO_Interpreter__forwardC__) */
 
