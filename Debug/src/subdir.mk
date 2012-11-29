@@ -6,17 +6,23 @@
 CPP_SRCS += \
 ../src/LOGO_Interpreter.cpp \
 ../src/baseCommandC.cpp \
-../src/forwardC.cpp 
+../src/forwardC.cpp \
+../src/jumpC.cpp \
+../src/rotateC.cpp 
 
 OBJS += \
 ./src/LOGO_Interpreter.o \
 ./src/baseCommandC.o \
-./src/forwardC.o 
+./src/forwardC.o \
+./src/jumpC.o \
+./src/rotateC.o 
 
 CPP_DEPS += \
 ./src/LOGO_Interpreter.d \
 ./src/baseCommandC.d \
-./src/forwardC.d 
+./src/forwardC.d \
+./src/jumpC.d \
+./src/rotateC.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
